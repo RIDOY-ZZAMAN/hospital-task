@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Chiro",
+        "img": "https://i.ibb.co/SRNTnbw/Chiro.png",
+        "description": "Chirography is the study of penmanship and handwriting in all of its aspects hirography is the study of penmanship an hirography is the study of penmanship an."
+    },
+    {
+        "id": 2,
+        "title": "Pharmacy",
+        "img": "https://i.ibb.co/kg9ts5f/pharmacy.png",
+        "description": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs"
+    },
+    {
+        "id": 3,
+        "title": "X-Ray",
+        "img": "https://i.ibb.co/p2TnL1k/xray.png",
+        "description": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation. Most X-rays have a wavelength ranging from 10 picometers to 10 nanometers, corresponding  "
+    },
+    {
+        "id": 4,
+        "title": "Dental",
+        "img": "https://i.ibb.co/568r5gq/dental.png",
+        "description": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, "
+    },
+    {
+        "id": 5,
+        "title": "ECG",
+        "img": "https://i.ibb.co/NV3Y9q7/ecg.png",
+        "description": "Electrocardiography is the process of producing an electrocardiogram. It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin."
+    },
+    {
+        "id": 6,
+        "title": "Blood Test",
+        "img": "https://i.ibb.co/rbJRkZh/bloodtest.png",
+        "description": "A blood test usually involves taking a blood sample from a blood vessel in your arm. The arm is a convenient part of the body to use because it can be easil"
+    },
+    {
+        "id": 7,
+        "title": "Full Body CheckUp",
+        "img": "https://i.ibb.co/VTLKKbt/fullbody-Check.png",
+        "description": "Whole Body Check is a comprehensive health check package which helps in the overall assessment of all the organs and systems of the body such as "
+    },
+    {
+        "id": 8,
+        "title": "Doctor's Appoinment",
+        "img": "https://i.ibb.co/9q9PCkW/Doctorappointment.png",
+        "description": "A doctor's visit, also known as a physician office visit or a consultation, or a ward round in an inpatient care context, is a meeting between a patient   "
+    }
+]
