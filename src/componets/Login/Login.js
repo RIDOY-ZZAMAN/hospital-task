@@ -4,7 +4,7 @@ import useAuth from '../../hooks/useAuth';
 
 
 const Login = () => {
-    const { handleGoogleSignIn, handleResetPassword, processLogin, registerNewUser, setUserName } = useAuth();
+    const { handleGoogleSignIn, handleResetPassword, processLogin, registerNewUser, setUserName, setIsLoading } = useAuth();
     const [isLogin, setIslogin] = useState(false);
     const [error, setError] = useState('');
     const [email, setEmail] = useState('');
@@ -61,7 +61,7 @@ const Login = () => {
 
             }).finally(() => {
 
-                // setIsLoading(false)
+                setIsLoading(false)
             });
 
 
