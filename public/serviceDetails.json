@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Chiro",
-            "img": "https://i.ibb.co/SRNTnbw/Chiro.png",
+            "img": "https://i.ibb.co/qdrzp8P/chiro.jpg",
             "description": "Chirography is the study of penmanship and handwriting in all of its aspects hirography is the study of penmanship an hirography is the study of penmanship an.",
             "cost": "$3000"
         },
@@ -17,21 +17,21 @@
         {
             "id": 3,
             "title": "X-Ray",
-            "img": "https://i.ibb.co/p2TnL1k/xray.png",
+            "img": "https://i.ibb.co/QkJMb2t/XRAY.png",
             "description": "An X-ray, or, much less commonly, X-radiation, is a penetrating form of high-energy electromagnetic radiation. Most X-rays have a wavelength ranging from 10 picometers to 10 nanometers, corresponding  ",
             "cost": "$3000"
         },
         {
             "id": 4,
             "title": "Dental",
-            "img": "https://i.ibb.co/568r5gq/dental.png",
+            "img": "https://i.ibb.co/C9NfXSt/DentaL.jpg",
             "description": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, ",
             "cost": "$3000"
         },
         {
             "id": 5,
             "title": "ECG",
-            "img": "https://i.ibb.co/NV3Y9q7/ecg.png",
+            "img": "https://i.ibb.co/kmfMYsX/ecG.jpg",
             "description": "Electrocardiography is the process of producing an electrocardiogram. It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin.",
             "cost": "$3000"
         },
