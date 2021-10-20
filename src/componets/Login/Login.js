@@ -7,6 +7,7 @@ const Login = () => {
     const { handleGoogleSignIn, handleResetPassword, processLogin, registerNewUser, setUserName, setIsLoading } = useAuth();
     const [isLogin, setIslogin] = useState(false);
     const [error, setError] = useState('');
+    const [loginSuccess, setLoginSuccess] = useState('')
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
@@ -24,15 +25,32 @@ const Login = () => {
             return;
         }
         if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
-            setError('password must contain 2 upper case')
+            setError('Password must contain 2 upper case')
             return;
         }
         else {
 
 
         }
-        isLogin ? processLogin(email, password) : registerNewUser(email, password)
-        history.push(redirect_url);
+        isLogin ? processLogin(email, password)
+            .then(result => {
+                history.push(redirect_url);
+                setLoginSuccess('Login Success');
+
+
+
+            }).catch(error => {
+                setError("Your Password or email is wrong!!!!, Try again with correct password and email");
+
+            })
+            .finally(() => {
+
+                setIsLoading(false)
+            })
+
+            : registerNewUser(email, password)
+
+
     }
     const toggleLogin = e => {
         setIslogin(e.target.checked);
@@ -55,9 +73,10 @@ const Login = () => {
     const singInUsingGoogle = () => {
         handleGoogleSignIn()
             .then((result) => {
-                history.push(redirect_url)
+                history.push(redirect_url);
+                setLoginSuccess('Login Success');
 
-                console.log(result.user);
+
 
             }).finally(() => {
 
@@ -114,7 +133,6 @@ const Login = () => {
             </form>
             <br /> OR <br />
             <button className="btn btn-danger" onClick={singInUsingGoogle}>Google Sign In</button>
-
 
         </div>
     );

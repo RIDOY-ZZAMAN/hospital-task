@@ -23,18 +23,9 @@ const useFirebase = () => {
         return signInWithPopup(auth, googleProvider)
     }
     const processLogin = (email, password) => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then(result => {
-                const user = result.user;
-                console.log("This user", user);
-                setError('Login Success');
+        setIsLoading(true);
+        return signInWithEmailAndPassword(auth, email, password)
 
-
-
-            })
-            .catch(error => {
-                setError(error.message)
-            })
     }
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
