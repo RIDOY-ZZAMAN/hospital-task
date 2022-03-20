@@ -11,7 +11,7 @@ const DisplayServices = (props) => {
     }
     return (
         <div className="col displayService">
-            <div className="card mx-auto" style={{ width: "18rem" }}>
+            <div className="card mx-auto" style={{ width: "20rem" }}>
                 <img src={img} className="card-img-top" alt="..." height="200px" />
                 <div className="card-body">
                     <h5 className="card-title">{id}. {title}</h5>

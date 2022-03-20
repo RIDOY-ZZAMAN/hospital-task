@@ -31,9 +31,9 @@ function App() {
             <PrivateRoute exact path="/serviceDetails/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
-            <PrivateRoute exact path="/appointment">
+            <Route exact path="/appointment">
               <Appointment></Appointment>
-            </PrivateRoute>
+            </Route>
             <Route exact path="/login">
               <Login></Login>
             </Route>

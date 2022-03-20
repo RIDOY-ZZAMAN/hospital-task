@@ -27,13 +27,18 @@ const ContactUs = () => {
                             <button type="submit" className="btn btn-primary mb-4">Submit</button>
                         </form>
                     </div>
-                    <div className="col-lg-6 col-sm-12 border">
-                        <h4> Our Location</h4>
-                        <p>Adress: Feni, Mohipal</p>
-                        <p>Phone: +800000000000</p>
-                        <p>Telephone: 099900</p>
-                        <p>Email: support@medinova.com</p>
-                        <p>Fax: 9ii9999</p>
+
+                    <div style={{ height: "330px" }} className="col-lg-6 col-sm-12 border" >
+
+                        <h4 className='border-bottom'> Our Location</h4>
+
+                        <div>
+                            <p>Adress: Feni, Mohipal</p>
+                            <p>Phone: +800000000000</p>
+                            <p>Telephone: 099900</p>
+                            <p>Email: support@medinova.com</p>
+                            <p>Fax: 9ii9999</p>
+                        </div>
 
                     </div>
                 </div>
